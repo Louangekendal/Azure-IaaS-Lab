@@ -114,15 +114,15 @@ The environment utilizes a classic tiered design to separate administrative acce
 ---
 
 ## 🖼️ Project Visuals
-*Click on any image to be taken to the high-level **Architecture Overview**.*
+*To view images of components Click on their appropriate link .*
 
 | Component | Description | Screenshot (Conceptual Link) |
 | :--- | :--- | :--- |
-| **Resource Group** | Consolidated view of all resources in `myVm_group`. | [![Resource Group Overview](./images/resource-group)](#architecture-overview) |
-| **Virtual Network** | `VNet-Lab` structure showing the secure Frontend and Backend subnets. | [![VNet-Lab with Subnets](./images/vnet-lab)](#architecture-overview) |
-| **Disk Management** | The new data disk initialized and mounted as the D: volume. | [![Disk Management Console](./images/disk-management)](#architecture-overview) |
-| **Azure Backup** | `VM-DB` protected by the Recovery Services Vault. | [![Azure Backup Status](./images/backup)](#architecture-overview) |
-| **Monitoring Alert** | CPU Alert Rule configured for performance management. | [![Monitoring/Alerts Configuration](./images/monitoring)](#architecture-overview) |
+| **Resource Group** | Consolidated view of all resources in `myVm_group`. | [Resource Group Screenshots](./images/Resource-Group/)|
+| **Virtual Network** | `VNet-Lab` structure showing the secure Frontend and Backend subnets. | [VNet-Lab with Subnets](./images/vnet-lab) |
+| **Disk Management** | The new data disk initialized and mounted as the D: volume. | [Disk Management Console](./images/disk-management)|
+| **Azure Backup** | `VM-DB` protected by the Recovery Services Vault. | [Azure Backup Status](./images/backup)|
+| **Monitoring Alert** | CPU Alert Rule configured for performance management. | [Monitoring/Alerts Configuration](./images/monitoring) |
 
 ---
 
