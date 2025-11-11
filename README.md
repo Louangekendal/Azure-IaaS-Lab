@@ -37,12 +37,12 @@ The environment utilizes a classic tiered design to separate administrative acce
 | **Networking** | `VNet-Lab` (10.0.0.0/16) | Isolated private network with segmented address space. |
 | **Subnets** | `Frontend` (10.0.1.0/24) | For public-facing/jumpbox VMs (`VM-Lab`). |
 | | `Backend` (10.0.2.0/24) | For protected, private resources (`VM-DB`). **No Public IP**. |
-| **Compute (VMs)** | `VM-Lab` (Jumpbox) | **Standard B1ms** Windows Server 2025. Administrative gateway. |
+| **Compute (VMs)** | `VM-Lab` (Jumpbox/Admin) | **Standard B1ms** Windows Server 2025. Administrative gateway. |
 | | `VM-DB` (Database) | Protected server. Access restricted to the Jumpbox. |
 | **Security** | **NSG-Frontend** | Controls RDP access (3389) and enforces the secure access model. |
 | **Storage** | **Standard SSD (LRS)** | Reliable managed disk type for all volumes. |
 | **Backup** | `RSV-Lab` | Recovery Services Vault storing protected backups for `VM-DB`. |
-| **Governance** | Tags | Applied for **Cost Tracking** (`Project`, `Environment`, `Owner`). |
+| **Governance** | [Tags](./images/tags) | Applied for **Cost Tracking** (`Project`, `Environment`, `Owner`). |
 
 ---
 
