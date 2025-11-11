@@ -1,5 +1,4 @@
 # ☁️ Azure IaaS Project:  Secure Personal Cloud Environment
-![Azure IaaS Project Banner](./images/banner.png)
 [![Microsoft Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4?style=for-the-badge&logo=azure)](https://azure.microsoft.com/)
 [![IaaS](https://img.shields.io/badge/Service-IaaS-005C94?style=for-the-badge)](https://azure.microsoft.com/overview/what-is-iaas/)
 [![PowerShell](https://img.shields.io/badge/Automation-PowerShell-5391F5?style=for-the-badge&logo=powershell)](https://docs.microsoft.com/en-us/powershell/azure/)
